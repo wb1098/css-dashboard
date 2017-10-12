@@ -168,14 +168,27 @@ img, embed, object, video{
     color: white;
 }
 
+.graphGroup{
+  height: 120px;
+  width: 120px;
+  background-color: lightcoral;  
+  position: absolute;
+  right: 1px;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
 
 .visitsGraph{
-    font-size: 120px;
-    position: absolute;
-    bottom: 15px;
-    right: 12px;
+    font-size: 120px;    
     color: darkorange;
+    position: absolute;
+    top: 5px;
+    right: 10px;
 }
+
 
 #rvCircle{
     color: darkorange;
@@ -202,9 +215,33 @@ img, embed, object, video{
     left: 10px;
 }
 
+.rvGroup{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 2px;
+    right: 5px;  
+    color: darkorange; 
+}
+
+.visitGroup{
+    display: flex;
+    flex-wrap: flex;
+}
+#rvCircle{
+    margin-top: 9px;
+}
+
 .bottomCenterWidget{
     background-color: lightyellow;
     width: 30vw;
+}
+
+.bottomCenterWidget{
+    width: 30%;
+    background-image: url(/img/marbles_BW_01.jpg);
+    background-attachment: fixed;
+    background-position: center;   
 }
 
 footer{
