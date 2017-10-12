@@ -33,14 +33,6 @@ img, embed, object, video{
     position: relative;
 }
 
-#logoE{
-    font-size: 44px;
-    margin-left: 12px;
-    margin-top: 8px;
-    display: inline-block;
-    width:60px;
-}
-
 .logoText{
     display: inline-block;
     position: absolute;
@@ -108,11 +100,10 @@ img, embed, object, video{
 }
 
 
-#pageViewNumb{
+.pageViewNumb{
   margin-top: 20px;
   width: 25%;
   display: inline-block;
-
 }
 
 .panel-body{
@@ -135,37 +126,30 @@ img, embed, object, video{
 }
 
 .bottomInfoSection{    
-    background-color: #333333;    
+    /* background-color: #333333;     */
+    background-color:darkcyan;
     padding-bottom: 20px;
     position: relative;
     height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .visitsWidget{
-    width: 40vw;
-    height: 40vw;
-    color: white;
-    display: flex;
+    color: white; 
+    background-color: #333333;  
+    /* background-color: darkolivegreen; */
+    width: 40%;
     position: relative;
-
 }
 
-#widgetHdr{
-    width: 35vw;
-    height: 20vw;
+.widgetHdr{    
+    height: 20px;
     color: white;
     position: absolute;
     top: 5px;
     left: 10px;
-    display:flex;
     margin-bottom: 12px; 
-}
-
-#nvGroup{
-    display: inline-block;
-    position: absolute;
-    top: 45px;
-    left: 10px;
 }
 
 
@@ -179,21 +163,43 @@ img, embed, object, video{
 
 #nvNumb{
     position: absolute;
-    top: 30px;
+    top: 60px;
     left: 10px;
     color: white;
 }
 
-#nvGroup{
-    display:inline-flex;
+
+.visitsGraph{
+    font-size: 120px;
+    position: absolute;
+    bottom: 15px;
+    right: 12px;
+    color: darkorange;
 }
 
 #rvCircle{
     color: darkorange;
+    display: flex;
 }
 
 #nvCircle{
-    color: white;    
+    color: white; 
+    display: flex;   
+    margin-top: 10px;
+}
+
+
+.visitorText{
+    display: flex;
+    margin-left:3px;
+}
+
+.nvGroup{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 2px;
+    left: 10px;
 }
 
 .bottomCenterWidget{
