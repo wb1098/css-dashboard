@@ -141,6 +141,7 @@ img, embed, object, video{
     /* background-color: darkolivegreen; */
     width: 40%;
     position: relative;
+    height: 164px;
 }
 
 .widgetHdr{    
@@ -168,13 +169,7 @@ img, embed, object, video{
     color: white;
 }
 
-.graphGroup{
-  height: 120px;
-  width: 120px;
-  background-color: lightcoral;  
-  position: absolute;
-  right: 1px;
-}
+
 
 .h1, .h2, .h3, h1, h2, h3 {
 	margin-top: 0;
@@ -182,11 +177,12 @@ img, embed, object, video{
 }
 
 .visitsGraph{
-    font-size: 120px;    
+    font-size: 100px;    
     color: darkorange;
     position: absolute;
-    top: 5px;
+    top: 1px;
     right: 10px;
+    height: 150px;
 }
 
 
@@ -241,7 +237,8 @@ img, embed, object, video{
     width: 30%;
     background-image: url(/img/marbles_BW_01.jpg);
     background-attachment: fixed;
-    background-position: center;   
+    background-position: center; 
+    color: white;  
 }
 
 footer{
