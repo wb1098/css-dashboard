@@ -141,7 +141,7 @@ img, embed, object, video{
     /* background-color: darkolivegreen; */
     width: 40%;
     position: relative;
-    height: 164px;
+    height: 200px;
 }
 
 .widgetHdr{    
@@ -168,8 +168,6 @@ img, embed, object, video{
     left: 10px;
     color: white;
 }
-
-
 
 .h1, .h2, .h3, h1, h2, h3 {
 	margin-top: 0;
@@ -230,16 +228,49 @@ img, embed, object, video{
 
 .bottomCenterWidget{
     background-color: lightyellow;
-    width: 30vw;
-}
-
-.bottomCenterWidget{
+    height: 200px;
+    overflow: hidden;
     width: 30%;
     background-image: url(/img/marbles_BW_01.jpg);
     background-attachment: fixed;
     background-position: center; 
-    color: white;  
+    color: darkorange; 
+    font-size: 18px;
 }
+
+
+.likeBox{
+    height: 200px;
+    overflow: hidden;
+    width: 30%;
+    background-color: #333333;  
+    color: white;      
+    text-align: center;
+}
+
+.topLikeBox{
+   height: 50%;  
+   position: 
+}
+
+.commentBox{
+   background-color: darkorange;
+   height:100%;
+   position: relative;   
+}
+
+.likesDisplay{
+  position : absolute;
+  top: 30px;
+  right: 70px;
+}
+
+.centerDisplay{    
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+
 
 footer{
     height: 60px;    
