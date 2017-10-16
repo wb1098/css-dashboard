@@ -52,6 +52,10 @@ img, embed, object, video{
     font-size: 36px;
 }
 
+.logoText{
+   margin-top: 10px;
+}
+
 .logoImgArea{
     width:150px;
 }
@@ -126,8 +130,8 @@ img, embed, object, video{
 }
 
 .bottomInfoSection{    
-    /* background-color: #333333;     */
-    background-color:darkcyan;
+    background-color: #333333;    
+    /* background-color:darkcyan; */
     padding-bottom: 20px;
     position: relative;
     height: 40vh;
@@ -249,8 +253,7 @@ img, embed, object, video{
 }
 
 .topLikeBox{
-   height: 50%;  
-   position: 
+   height: 50%;     
 }
 
 .commentBox{
